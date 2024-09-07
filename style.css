@@ -5,11 +5,11 @@
 :root{
     --header-height: 3rem;
 
-/*=============== COLORS ===============*/
+ /*=============== COLORS ===============*/
  --hue-color: 206;
- --black-color: hsl(var(--hue-color), 4%, 4%);
- --black-color-alt: hsl(var(--hue-color), 4%, 8%);
- --title-color: hsl(var(--hue-color), 4%, 95%);
+--black-color: hsl(var(--hue-color), 4%, 4%);
+--black-color-alt: hsl(var(--hue-color), 4%, 8%);
+--title-color: hsl(var(--hue-color), 4%, 95%);
  --text-color: hsl(var(--hue-color), 4%, 75%);
  --text-color-light: hsl(var(--hue-color), 4%, 65%);
  --white-color: #fff;
@@ -128,7 +128,7 @@ img{
 
 /*=============== LAYOUT ===============*/
 .main{
-    overflow: hidden; /*Fpr animations and images*/
+    overflow: hidden; /*For animations and images*/
 }
 
 .container{
@@ -221,6 +221,17 @@ img{
     top: 0;
 }
 
+/*Change background header*/
+.scroll-header{
+    background-color: var(--body-color);
+}
+
+
+/*Active link*/
+
+
+
+
 /*=============== HOME ===============*/
 .home__img{
     width: 250px;
@@ -272,16 +283,43 @@ img{
     margin-left: var(--mb-0-75);
 }
 
-
-
-
-
-
 /*=============== BUTTONS ===============*/
+.button{
+    display: inline-block;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1rem 1.25rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
 
+.button:hover{
+    background-color: var(--black-color-alt);
+}
 
+.button__icon{
+    font-size: 1.2rem;
+}
 
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .75rem;
+}
 /*=============== SPONSOR ===============*/
+.sponsor{
+    width: 90px;
+}
+
+.sponsor__container{
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    row-gap: 5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
 
 
 /*=============== SPECS ===============*/
@@ -291,27 +329,4 @@ img{
 
 
 /*=============== PRODUCTS ===============*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
 
