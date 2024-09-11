@@ -46,3 +46,9 @@ Profile: ProximaD.github.io
 # Acknowledgments
 
 Hat tip to anyone whose code was used Inspiration etc
+
+![Screenshot 2024-09-11 165506](https://github.com/user-attachments/assets/3b169833-7f3f-4470-9a0c-83ffbee95418)
+![Screenshot 2024-09-11 165920](https://github.com/user-attachments/assets/4ce6873d-ee70-44ea-afd2-02d61d49763f)
+![Screenshot 2024-09-11 165904](https://github.com/user-attachments/assets/886597f6-385a-4d54-a083-a599dd2ac1e9)
+![Screenshot 2024-09-11 165843](https://github.com/user-attachments/assets/f993d1ac-1f8c-4a6a-aea0-dfd1592ca122)
+
