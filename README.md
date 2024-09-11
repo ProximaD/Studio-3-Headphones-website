@@ -1,4 +1,4 @@
-# Sandra Lavenda's Portfolio - jewellery-website
+# Sandra Lavenda's Portfolio
 
 # Responsive-Headphones-website
 
