@@ -786,6 +786,7 @@ img{
         grid-template-columns: .4fr .7fr .7fr .1fr;
     }
 }
+
 /*For large devices*/
 @media screen and (min-width: 1024){
     .container{
